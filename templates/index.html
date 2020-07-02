@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+{% block title %}Shop{% endblock %}
+<div class="col-12 col-md-6 col-lg-2 my-3">
+  <div class="card">
+    <img class="card-img" src="https://s3.eu-central-1.amazonaws.com/bootstrapbaymisc/blog/24_days_bootstrap/vans.png" alt="Vans">
+    <div class="card-img-overlay d-flex justify-content-end">
+      <a href="#" class="card-link text-danger like">
+      </a>
+    </div>
+    <div class="card-body">
+      <h4 class="card-title">Vans Sk8-Hi MTE Shoes</h4>
+      <h6 class="card-subtitle mb-2 text-muted">Brand: Vans</h6>
+      <p class="card-text">
+        The Vans All-Weather MTE Collection features footwear and apparel designed to withstand the elements whilst still looking cool.             </p>
+      <div class="buy d-flex justify-content-between align-items-center">
+        <div class="price text-success"><h5 class="mt-4">$125</h5></div>
+         <a href="#" class="btn btn-danger mt-3"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
+      </div>
+    </div>
+  </div>
+</div>
+{% block body %}
+  <div class="row my-5">
+    <div class="col-2 ml-5">
+      <div class="card text-center">
+        <div class="card-header bg-primary text-white">
+          <h2>Hedo</h2>
+        </div>
+        <ul class="list-group list-group-flush">
+        <li class="list-group-item">Poup</li>
+        <li class="list-group-item">eh</li>
+        <li class="list-group-item">Lorem dripisum</li>
+      </ul>
+      </div>
+    </div>
+  </div>
+<div class="bg-dark py-5 text-white text-center">
+  <p>Shop&copy; 2020. All Rights Reserved.</p>
+</div>
+{% endblock %}
